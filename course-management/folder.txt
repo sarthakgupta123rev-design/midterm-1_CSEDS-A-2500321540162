@@ -1,0 +1,16 @@
+course-management/
+│
+├── public/
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
+│
+├── data/
+│   └── courses.json
+│
+├── routes/
+│   └── courseRoutes.js
+│
+├── server.js
+├── package.json
+└── README.md

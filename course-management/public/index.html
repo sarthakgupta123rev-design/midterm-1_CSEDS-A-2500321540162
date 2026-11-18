@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Course Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Course Management System</h1>
+
+    <div class="container">
+
+        <h2>Add / Update Course</h2>
+
+        <form id="courseForm">
+
+            <input type="hidden" id="id">
+
+            <input
+                type="text"
+                id="courseName"
+                placeholder="Course Name"
+                required
+            >
+
+            <input
+                type="text"
+                id="code"
+                placeholder="Course Code"
+                required
+            >
+
+            <input
+                type="text"
+                id="department"
+                placeholder="Department"
+                required
+            >
+
+            <button type="submit">Save Course</button>
+
+        </form>
+
+        <h2>All Courses</h2>
+
+        <table>
+
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Course Name</th>
+                    <th>Code</th>
+                    <th>Department</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+
+            <tbody id="courseList"></tbody>
+
+        </table>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

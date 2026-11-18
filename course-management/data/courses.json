@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "courseName": "Data Structures",
+        "code": "CS301",
+        "department": "CSE"
+    },
+    {
+        "id": 2,
+        "courseName": "Operating System",
+        "code": "CS302",
+        "department": "CSE"
+    },
+    {
+        "id": 3,
+        "courseName": "Computer Networks",
+        "code": "CS303",
+        "department": "IT"
+    }
+]
